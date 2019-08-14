@@ -16,4 +16,4 @@ describe 'App' do
       expect(last_response.body).to eq(File.read("views/index.erb"))
     end
 
-
+end  
